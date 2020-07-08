@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C17EA824B56CB400B65F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EA724B56CB400B65F80 /* AppDelegate.swift */; };
+		58C17EAA24B56CB400B65F80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EA924B56CB400B65F80 /* SceneDelegate.swift */; };
+		58C17EAC24B56CB400B65F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EAB24B56CB400B65F80 /* ContentView.swift */; };
+		58C17EAE24B56CB600B65F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C17EAD24B56CB600B65F80 /* Assets.xcassets */; };
+		58C17EB124B56CB600B65F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C17EB024B56CB600B65F80 /* Preview Assets.xcassets */; };
+		58C17EB424B56CB600B65F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C17EB224B56CB600B65F80 /* LaunchScreen.storyboard */; };
+		58C17EBF24B56CB600B65F80 /* Christmas_CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EBE24B56CB600B65F80 /* Christmas_CountdownTests.swift */; };
+		58C17ECA24B56CB600B65F80 /* Christmas_CountdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EC924B56CB600B65F80 /* Christmas_CountdownUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C17EBB24B56CB600B65F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C17E9C24B56CB400B65F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C17EA324B56CB400B65F80;
+			remoteInfo = "Christmas Countdown";
+		};
+		58C17EC624B56CB600B65F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C17E9C24B56CB400B65F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C17EA324B56CB400B65F80;
+			remoteInfo = "Christmas Countdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58C17EA424B56CB400B65F80 /* Christmas Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C17EA724B56CB400B65F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58C17EA924B56CB400B65F80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58C17EAB24B56CB400B65F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58C17EAD24B56CB600B65F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C17EB024B56CB600B65F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58C17EB324B56CB600B65F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58C17EB524B56CB600B65F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C17EBA24B56CB600B65F80 /* Christmas CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C17EBE24B56CB600B65F80 /* Christmas_CountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_CountdownTests.swift; sourceTree = "<group>"; };
+		58C17EC024B56CB600B65F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C17EC524B56CB600B65F80 /* Christmas CountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C17EC924B56CB600B65F80 /* Christmas_CountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_CountdownUITests.swift; sourceTree = "<group>"; };
+		58C17ECB24B56CB600B65F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C17EA124B56CB400B65F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EB724B56CB600B65F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EC224B56CB600B65F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58C17E9B24B56CB400B65F80 = {
+			isa = PBXGroup;
+			children = (
+				58C17EA624B56CB400B65F80 /* Christmas Countdown */,
+				58C17EBD24B56CB600B65F80 /* Christmas CountdownTests */,
+				58C17EC824B56CB600B65F80 /* Christmas CountdownUITests */,
+				58C17EA524B56CB400B65F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58C17EA524B56CB400B65F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C17EA424B56CB400B65F80 /* Christmas Countdown.app */,
+				58C17EBA24B56CB600B65F80 /* Christmas CountdownTests.xctest */,
+				58C17EC524B56CB600B65F80 /* Christmas CountdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C17EA624B56CB400B65F80 /* Christmas Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				58C17EA724B56CB400B65F80 /* AppDelegate.swift */,
+				58C17EA924B56CB400B65F80 /* SceneDelegate.swift */,
+				58C17EAB24B56CB400B65F80 /* ContentView.swift */,
+				58C17EAD24B56CB600B65F80 /* Assets.xcassets */,
+				58C17EB224B56CB600B65F80 /* LaunchScreen.storyboard */,
+				58C17EB524B56CB600B65F80 /* Info.plist */,
+				58C17EAF24B56CB600B65F80 /* Preview Content */,
+			);
+			path = "Christmas Countdown";
+			sourceTree = "<group>";
+		};
+		58C17EAF24B56CB600B65F80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58C17EB024B56CB600B65F80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58C17EBD24B56CB600B65F80 /* Christmas CountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				58C17EBE24B56CB600B65F80 /* Christmas_CountdownTests.swift */,
+				58C17EC024B56CB600B65F80 /* Info.plist */,
+			);
+			path = "Christmas CountdownTests";
+			sourceTree = "<group>";
+		};
+		58C17EC824B56CB600B65F80 /* Christmas CountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58C17EC924B56CB600B65F80 /* Christmas_CountdownUITests.swift */,
+				58C17ECB24B56CB600B65F80 /* Info.plist */,
+			);
+			path = "Christmas CountdownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C17EA324B56CB400B65F80 /* Christmas Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C17ECE24B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas Countdown" */;
+			buildPhases = (
+				58C17EA024B56CB400B65F80 /* Sources */,
+				58C17EA124B56CB400B65F80 /* Frameworks */,
+				58C17EA224B56CB400B65F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christmas Countdown";
+			productName = "Christmas Countdown";
+			productReference = 58C17EA424B56CB400B65F80 /* Christmas Countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58C17EB924B56CB600B65F80 /* Christmas CountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C17ED124B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas CountdownTests" */;
+			buildPhases = (
+				58C17EB624B56CB600B65F80 /* Sources */,
+				58C17EB724B56CB600B65F80 /* Frameworks */,
+				58C17EB824B56CB600B65F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C17EBC24B56CB600B65F80 /* PBXTargetDependency */,
+			);
+			name = "Christmas CountdownTests";
+			productName = "Christmas CountdownTests";
+			productReference = 58C17EBA24B56CB600B65F80 /* Christmas CountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58C17EC424B56CB600B65F80 /* Christmas CountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C17ED424B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas CountdownUITests" */;
+			buildPhases = (
+				58C17EC124B56CB600B65F80 /* Sources */,
+				58C17EC224B56CB600B65F80 /* Frameworks */,
+				58C17EC324B56CB600B65F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C17EC724B56CB600B65F80 /* PBXTargetDependency */,
+			);
+			name = "Christmas CountdownUITests";
+			productName = "Christmas CountdownUITests";
+			productReference = 58C17EC524B56CB600B65F80 /* Christmas CountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C17E9C24B56CB400B65F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = SaulUrias;
+				TargetAttributes = {
+					58C17EA324B56CB400B65F80 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					58C17EB924B56CB600B65F80 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 58C17EA324B56CB400B65F80;
+					};
+					58C17EC424B56CB600B65F80 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 58C17EA324B56CB400B65F80;
+					};
+				};
+			};
+			buildConfigurationList = 58C17E9F24B56CB400B65F80 /* Build configuration list for PBXProject "Christmas Countdown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C17E9B24B56CB400B65F80;
+			productRefGroup = 58C17EA524B56CB400B65F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C17EA324B56CB400B65F80 /* Christmas Countdown */,
+				58C17EB924B56CB600B65F80 /* Christmas CountdownTests */,
+				58C17EC424B56CB600B65F80 /* Christmas CountdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C17EA224B56CB400B65F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C17EB424B56CB600B65F80 /* LaunchScreen.storyboard in Resources */,
+				58C17EB124B56CB600B65F80 /* Preview Assets.xcassets in Resources */,
+				58C17EAE24B56CB600B65F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EB824B56CB600B65F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EC324B56CB600B65F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C17EA024B56CB400B65F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C17EA824B56CB400B65F80 /* AppDelegate.swift in Sources */,
+				58C17EAA24B56CB400B65F80 /* SceneDelegate.swift in Sources */,
+				58C17EAC24B56CB400B65F80 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EB624B56CB600B65F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C17EBF24B56CB600B65F80 /* Christmas_CountdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C17EC124B56CB600B65F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C17ECA24B56CB600B65F80 /* Christmas_CountdownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C17EBC24B56CB600B65F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C17EA324B56CB400B65F80 /* Christmas Countdown */;
+			targetProxy = 58C17EBB24B56CB600B65F80 /* PBXContainerItemProxy */;
+		};
+		58C17EC724B56CB600B65F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C17EA324B56CB400B65F80 /* Christmas Countdown */;
+			targetProxy = 58C17EC624B56CB600B65F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58C17EB224B56CB600B65F80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C17EB324B56CB600B65F80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58C17ECC24B56CB600B65F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58C17ECD24B56CB600B65F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C17ECF24B56CB600B65F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Christmas Countdown/Preview Content\"";
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Christmas Countdown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C17ED024B56CB600B65F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Christmas Countdown/Preview Content\"";
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Christmas Countdown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58C17ED224B56CB600B65F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Christmas CountdownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-CountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Countdown.app/Christmas Countdown";
+			};
+			name = Debug;
+		};
+		58C17ED324B56CB600B65F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Christmas CountdownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-CountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Countdown.app/Christmas Countdown";
+			};
+			name = Release;
+		};
+		58C17ED524B56CB600B65F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Christmas CountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-CountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Christmas Countdown";
+			};
+			name = Debug;
+		};
+		58C17ED624B56CB600B65F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7XSB8HU3F;
+				INFOPLIST_FILE = "Christmas CountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulurias.Christmas-CountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Christmas Countdown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C17E9F24B56CB400B65F80 /* Build configuration list for PBXProject "Christmas Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C17ECC24B56CB600B65F80 /* Debug */,
+				58C17ECD24B56CB600B65F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C17ECE24B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C17ECF24B56CB600B65F80 /* Debug */,
+				58C17ED024B56CB600B65F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C17ED124B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas CountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C17ED224B56CB600B65F80 /* Debug */,
+				58C17ED324B56CB600B65F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C17ED424B56CB600B65F80 /* Build configuration list for PBXNativeTarget "Christmas CountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C17ED524B56CB600B65F80 /* Debug */,
+				58C17ED624B56CB600B65F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58C17E9C24B56CB400B65F80 /* Project object */;
+}
