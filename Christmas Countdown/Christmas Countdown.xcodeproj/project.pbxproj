@@ -15,6 +15,7 @@
 		58C17EB424B56CB600B65F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C17EB224B56CB600B65F80 /* LaunchScreen.storyboard */; };
 		58C17EBF24B56CB600B65F80 /* Christmas_CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EBE24B56CB600B65F80 /* Christmas_CountdownTests.swift */; };
 		58C17ECA24B56CB600B65F80 /* Christmas_CountdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17EC924B56CB600B65F80 /* Christmas_CountdownUITests.swift */; };
+		58C17ED824B56CFF00B65F80 /* CustomDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C17ED724B56CFF00B65F80 /* CustomDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		58C17EC524B56CB600B65F80 /* Christmas CountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C17EC924B56CB600B65F80 /* Christmas_CountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_CountdownUITests.swift; sourceTree = "<group>"; };
 		58C17ECB24B56CB600B65F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C17ED724B56CFF00B65F80 /* CustomDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				58C17EA724B56CB400B65F80 /* AppDelegate.swift */,
 				58C17EA924B56CB400B65F80 /* SceneDelegate.swift */,
 				58C17EAB24B56CB400B65F80 /* ContentView.swift */,
+				58C17ED724B56CFF00B65F80 /* CustomDate.swift */,
 				58C17EAD24B56CB600B65F80 /* Assets.xcassets */,
 				58C17EB224B56CB600B65F80 /* LaunchScreen.storyboard */,
 				58C17EB524B56CB600B65F80 /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C17ED824B56CFF00B65F80 /* CustomDate.swift in Sources */,
 				58C17EA824B56CB400B65F80 /* AppDelegate.swift in Sources */,
 				58C17EAA24B56CB400B65F80 /* SceneDelegate.swift in Sources */,
 				58C17EAC24B56CB400B65F80 /* ContentView.swift in Sources */,
